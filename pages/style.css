@@ -1,0 +1,18 @@
+:root {
+  --header-footer-bg-color: #363940;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+header {
+  height: 100px;
+  
+}
+
+.content {
+  margin: 0 calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+  background-color: var(--header-footer-bg-color);
+  padding: 50px 50px 50px 50px;
+}
