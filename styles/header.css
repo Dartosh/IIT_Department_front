@@ -12,6 +12,8 @@
   --header-footer-bg-color: #363940;
   --default-text-color: #e2e2e2;
   --h1-font-size: 2em;
+  --h2-font-size: 1.5em;
+  --h3-font-size: 1.3em;
 }
 
 header {
@@ -67,13 +69,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-.d1 {
+.search {
   display: flex;
   flex-direction: row;
   height: 40px;
 }
 
-.d1 input {
+.search input {
   width: 200px;
   height: 100%;
   padding-left: 10px;
@@ -84,7 +86,7 @@ h1 {
   font-family: 'sans-reg';
 }
 
-.d1 button {
+.search button {
   border: none;
   margin-left: -5px;
   width: 35px;
@@ -94,7 +96,7 @@ h1 {
   cursor: pointer;
 }
 
-.d1 button:before {
+.search button:before {
   content: "S";
   font-size: 16px;
   color: #F9F0DA;
@@ -114,7 +116,7 @@ h1 {
   padding-bottom: 2px;
 }
 
-.login-container button:last-child {
+.login-container form:last-child button:last-child {
   margin-left: 15px;
   background-color: #0b5ed7;
   color: #FFFFFF;

@@ -5,13 +5,37 @@
       IIT Department
     </title>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="pages/styles-reset.css">
-    <link rel="stylesheet" href="pages/header.css">
-    <link rel="stylesheet" href="pages/footer.css">
+    <link rel="stylesheet" href="styles/styles-reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/login.css">
+
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js" defer></script>
+    <script type="text/javascript" src="scripts/pop-up-menu.js" defer></script>
     <!--<link rel="stylesheet" href="pages/header-footer.css">-->
   </head>
   <body>
+    
     <div class="wrapper">
+      <!--POP UP CONTENT-->
+      <div class="login-popup" id="log-popup">
+        <div class="login-popup-content">
+            <h2>Login</h2>
+            <h3>Войти по личному номеру телефона: </h3>
+            <div class="number-login">
+              <form>
+                <input type="text" placeholder="Number">
+                <button type="submit">
+                </button>
+              </form>
+            </div>
+            
+            
+        <a href="javascript:PopUpHide()">Hide popup</a>
+        </div>
+      </div>
+
 
       <header>
         <div class="header__content">
@@ -53,7 +77,7 @@
           </ul>
         </div>
         <div class="header__content">
-          <div class="d1">
+          <div class="search">
             <form>
               <input type="text" placeholder="Search...">
               <button type="submit"></button>
@@ -61,16 +85,20 @@
           </div>
 
           <div class="login-container">
-            <button type="submit">Login</button>
-            <button type="submit">Sign-up</button>
+            <form action="javascript:PopUpShow()">
+              <button type="submit">Login</button>
+            </form>
+            <form action="">
+              <button type="submit">Sign-up</button>
+            </form>
           </div>
       </header>
 
-      
-      
-
-
       <main>
+
+        <div class="main__content">
+          
+        </div>
 
       </main>
 
@@ -108,7 +136,6 @@
         </div>
         
       </footer>
-
     </div>
   </body>
 </html>

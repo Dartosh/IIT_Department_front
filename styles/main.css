@@ -1,0 +1,15 @@
+:root {
+  --header-footer-bg-color: #363940;
+  --default-text-color: #e2e2e2;
+}
+
+main {
+  background: var(--default-text-color);
+}
+
+.main__content {
+  margin: 0 calc((100% - 1920px) / 2 + 260px) 0 calc((100% - 1920px) / 2 + 260px);
+  padding: 100px 50px 100px 50px;
+  align-items: center;
+}
+
