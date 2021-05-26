@@ -11,6 +11,7 @@
 :root {
   --header-footer-bg-color: #363940;
   --default-text-color: #e2e2e2;
+  --default-text-frame-color: #cdcdcd;
   --h1-font-size: 2em;
   --h2-font-size: 1.5em;
   --h3-font-size: 1.3em;
@@ -97,7 +98,7 @@ h1 {
 }
 
 .search button:before {
-  content: "S";
+  content: ">";
   font-size: 16px;
   color: #F9F0DA;
 }

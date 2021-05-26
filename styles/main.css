@@ -1,6 +1,6 @@
-:root {
-  --header-footer-bg-color: #363940;
-  --default-text-color: #e2e2e2;
+@font-face {
+	font-family: 'sans-black';
+	src: url("../assets/fonts/OpenSans-ExtraBold.ttf") format("truetype");
 }
 
 main {
@@ -13,3 +13,38 @@ main {
   align-items: center;
 }
 
+h4 {
+  font-size: 5em;
+  font-family: 'sans-black';
+  color: var(--header-footer-bg-color);
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.main-info {
+  background-color: var(--default-text-frame-color);
+  width: 400px;
+  border-radius: 10px;
+  padding: 40px;
+  font-family: 'sans-reg';
+  margin: 40px 10px 0 10px;
+}
+
+.main-info p {
+  line-height: 1.5em;;
+}
+
+h5 {
+  text-align: left;
+  font-size: var(--h3-font-size);
+  color: var(--header-footer-bg-color);
+  font-family: 'mont-black';
+  margin-bottom: 15px;
+}
