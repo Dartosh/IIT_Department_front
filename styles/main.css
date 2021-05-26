@@ -26,6 +26,10 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
+
+  border-top: 1px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to left, var(--default-text-color), #38495a, var(--default-text-color));
 }
 
 .main-info {
@@ -34,7 +38,7 @@ h4 {
   border-radius: 10px;
   padding: 40px;
   font-family: 'sans-reg';
-  margin: 40px 10px 0 10px;
+  margin: 100px 10px 0 10px;
 }
 
 .main-info p {
