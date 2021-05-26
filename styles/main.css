@@ -52,3 +52,32 @@ h5 {
   font-family: 'mont-black';
   margin-bottom: 15px;
 }
+
+.publication {
+  background-color: var(--default-text-frame-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px;
+  font-family: 'sans-reg';
+  margin: 100px 10px 0 10px;
+  text-align: justify;
+}
+
+.publication img {
+  height: 300px;
+  margin: 0 auto 40px auto;
+}
+
+.publication-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to left, var(--default-text-color), #38495a, var(--default-text-color));
+}
