@@ -1,5 +1,5 @@
 import React, { Fragment, Component } from 'react';
-import './styles.css';
+import '../src/lessns/styles.css';
 
 const Columns = () => (
     <Fragment>
